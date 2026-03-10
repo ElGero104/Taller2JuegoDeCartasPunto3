@@ -33,14 +33,7 @@ public class FrmJuego extends JFrame {
         tpJugadores.addTab("Raul Vidal", pnlJugador2);
 
         
-        /* Acciones de los botones */
-        btnRepartir.addActionListener(e -> {
-            // Lógica para repartir cartas
-        });
-
-        btnVerificar.addActionListener(e -> {
-            // Lógica para verificar el ganador
-        });
+        
     }
 
 }
