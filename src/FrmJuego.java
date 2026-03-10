@@ -31,6 +31,10 @@ public class FrmJuego extends JFrame {
 
         tpJugadores.addTab("Martin Estrada contreras", pnlJugador1);
         tpJugadores.addTab("Raul Vidal", pnlJugador2);
+
+        btnRepartir.addActionListener(e -> {
+            // Lógica para repartir cartas
+        });
     }
 
 }
